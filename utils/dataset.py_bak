@@ -1,0 +1,58 @@
+import pickle
+import random
+import torch
+from torch.utils.data import Dataset, DataLoader
+from torch.utils.data.sampler import Sampler
+from utils.dsp import *
+from utils import hparams as hp
+from utils.text import text_to_sequence
+from pathlib import Path
+
+#torch.manual_seed(0)
+#random.seed(0)
+#np.random.seed(0)
+#torch.backends.cudnn.benchmark = False
+#torch.use_deterministic_algorithms(True)
+
+###################################################################################
+# WaveRNN/Vocoder Dataset #########################################################
+###################################################################################
+def get_datasets(path, batch_size, shuffle):
+    with open(f'{path}/dataset.pkl', 'rb') as f:
+        dataset = pickle.load(f)
+    ids = [x[0] for x in dataset]
+    random.seed(1234)
+    random.shuffle(ids)
+    train_dataset = RTestDataset(path, ids)
+    train_set = DataLoader(train_dataset, 
+            collate_fn=colla_RTest, 
+            batch_size=batch_size,
+            shuffle=shuffle,
+            pin_memory=True, num_workers=2,
+            worker_init_fn=seed_worker)
+    return train_set 
+
+def colla_RTest(samples):
+    DR=[torch.from_numpy(sample[0].T) for sample in samples]
+    T60=[torch.from_numpy(sample[1]) for sample in samples]
+    padded_inputs = torch.nn.utils.rnn.pad_sequence(DR,batch_first=True)
+    return padded_inputs.contiguous(), torch.stack(T60).contiguous()
+
+class RTestDataset(Dataset):
+    def __init__(self, path, dataset_ids):
+        self.metadata = dataset_ids
+        self.path = path
+    
+    def __getitem__(self, index):
+        utt_id= self.metadata[index]
+        DR = np.load(f'{self.path}/decayRates/{utt_id}.npy')
+        T60 = np.load(f'{self.path}/T60/{utt_id}.npy')
+        return DR, T60
+
+    def __len__(self):
+        return len(self.metadata)
+
+def seed_worker(worker_id):
+    worker_seed = torch.initial_seed() % 2**32
+    np.random.seed(worker_seed)
+    random.seed(worker_seed)
