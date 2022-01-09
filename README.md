@@ -12,7 +12,7 @@
 This repo contains the implementation and experimetal results of a method for blind revereberation time (T60) estimation using Attentive pooling-based Weighted Sum of Spectral Decay Rates (AWSSDR). 
 
 ## Implementation
-* = training set number
+\* = training set number
 ### Training
 #### python CUBLAS_WORKSPACE_CONFIG=:4096:8 1_trainset*.py
 
