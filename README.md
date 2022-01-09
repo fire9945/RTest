@@ -9,7 +9,7 @@
 
 
 ## About
-This repo contains the implementation and experimetal results of the Attentive pooling-based Weighted Sum of Spectral Decay Rates (AWSSDR). The AWSSDR is a environmental feature for blind estimation of reverberation time.
+This repo contains the implementation and experimetal results of the Attentive pooling-based Weighted Sum of Spectral Decay Rates (AWSSDR). The AWSSDR is a environmental feature for blind estimation of reverberation time. An entire system of the T60 estimation method using AWSSDR is as follows:
 
 
 ## Training
