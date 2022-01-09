@@ -4,6 +4,11 @@
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=yellow)
 ![Pytorch](https://img.shields.io/badge/Pytorch-EE4C2C?style=flat-square&logo=Pytorch&logoColor=black)
 
+
+## About
+This repo contains the implementation and experimetal results of the Attentive pooling-based Weighted Sum of Spectral Decay Rates (AWSSDR). The AWSSDR is a environmental feature for blind estimation of reverberation time.
+
+
 ## Training
 ### python CUBLAS_WORKSPACE_CONFIG=:4096:8 1_trainset*.py
 
