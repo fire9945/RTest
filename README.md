@@ -43,10 +43,11 @@ All data samples were resampled to a sampling frequency of 16 kHz.
 The pytorch deep learning framework was used for implementing proposed method. When obtaining a batch of data by sequence level, the lengths of the sequences were fitted to the longest sequence in the batch using padding to batch various lengths of sequences. If a large batch is used, the difference in the length of the sequences included in the batch becomes large. Because of this, short sequences are excessively padded, which lowers the stability of the training, as shown in Fig. 2(a). Therefore, we batched the training sequences according to their length order and used a small batch. To achieve the same effect as using a large batch we updated the model at once after calculating the gradients of multiple batches. Fig. 2(b) shows that this method improves the training stability. The batch size was set to 16, and the model was updated every 16 batches.
 
 
-<img src="https://user-images.githubusercontent.com/26379533/148746078-0feeb270-f866-47cc-ba34-9bc585dcb6fa.png" width="800" height="300"/>
+<img src="https://user-images.githubusercontent.com/26379533/148746078-0feeb270-f866-47cc-ba34-9bc585dcb6fa.png" width="800" height="200"/>
+
 <p align="center">(a)<p align="center">
   
-<img src="https://user-images.githubusercontent.com/26379533/148746576-e2dccf24-32c2-486d-8685-9c31fea76feb.png" width="800" height="300"/>
+<img src="https://user-images.githubusercontent.com/26379533/148746576-e2dccf24-32c2-486d-8685-9c31fea76feb.png" width="800" height="200"/>
   
 <p align="center">(b)<p align="center">
   
