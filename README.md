@@ -19,7 +19,7 @@ An entire system of the T60 estimation method using AWSSDR is as follows:
 <p align="center">Fig. 1. Illustration of proposed T60 estimation method using the AWSSDR.<p align="center">
 
 
-The entire system is designed as a two-stage fusion process:
+<span style="color:yellow">The entire system is designed as a two-stage fusion process:</span>
 1. Attentive pooling stage 
 2. T60 mapping stage
 
