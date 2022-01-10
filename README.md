@@ -16,6 +16,7 @@ Therefore, we introduce a soft decision mechanism that assigns a weight to each 
 An entire system of the T60 estimation method using AWSSDR is as follows:
 
 ![전체흐름도 수정](https://user-images.githubusercontent.com/26379533/148723147-5a081897-b4a9-445b-bb01-f650f7240269.PNG)
+<p align="center">Fig. 1. Illustration of proposed T60 estimation method using the AWSSDR.<p align="center">
 
 
 The entire system is designed as a two-stage fusion process:
@@ -49,7 +50,7 @@ The pytorch deep learning framework was used for implementing proposed method. W
 <center><img src="https://user-images.githubusercontent.com/26379533/148746576-e2dccf24-32c2-486d-8685-9c31fea76feb.png" width="800" height="200"/></center>  
 <p align="center">(b)<p align="center">
   
-<p align="center">Fig. 4. Loss tracking of training and validation data. (a) Training with the large batch. (b) Training with the small multi-batch.<p align="center">
+<p align="center">Fig. 2. Loss tracking of training and validation data. (a) Training with the large batch. (b) Training with the small multi-batch.<p align="center">
 
 
 
