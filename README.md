@@ -57,6 +57,9 @@ The pytorch deep learning framework was used for implementing proposed method. W
 #### Performance comparison of blind T60 estimation
 Evaluation data: ACE Challenge EVAL set
 
+|Algorithm|Bias|MSE|*ρ*|
+|||||
+  
   
 \begin{table}[t!]
 \caption{Performance Comparison of Blind T$_{60}$ Estimation}
