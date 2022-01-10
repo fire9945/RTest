@@ -47,7 +47,7 @@ Two sets of training data were generated. <br/>
 Common : RIRs (538 measured RIRs with T60 values between 0.1 and 1.5s from publicly available databases), noises (6 types) <br/>
 Set 1 : anechoic speech (TIMIT corpus), total 29,052 utt. <br/>
 Set 2 : anechoic speech (TIMIT corpus + additional short utterances), total 58,104 utt. <br/>
-*Most algorithms submitted to the ACE Challenge performed better with longer utterances. Considering this, we tried to improve the performance of T60 estimation for short utterances by generating additional training data (set 2) including short utterances.*
+**_Most algorithms submitted to the ACE Challenge performed better with longer utterances. Considering this, we tried to improve the performance of T60 estimation for short utterances by generating additional training data (set 2) including short utterances._**
 
 
 All data samples were resampled to a sampling frequency of 16 kHz.
