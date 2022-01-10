@@ -67,10 +67,10 @@ Evaluation data: ACE Challenge EVAL set
 |CRNN [6]|-0.0488|0.0206|0.917|
 |FDNSV (set 1)|-0.1664|0.0910|0.736|
 |AWSSDR (set 1)|-0.0091|0.0166|0.936|
-|<span style="color:red">AWSSDR (set 2)</span>|<span style="color:red">0.0268</span>|<span style="color:red">0.0131</span>|<span style="color:red">0.953</span>|
+|<span style="color:red">AWSSDR (set 2)</span>|0.0268|0.0131|0.953|
 
   
-  
+ |<span style="color:red">AWSSDR (set 2)</span>|<span style="color:red">0.0268</span>|<span style="color:red">0.0131</span>|<span style="color:red">0.953</span>| 
 \begin{table}[t!]
 \caption{Performance Comparison of Blind T$_{60}$ Estimation}
 \label{experiment results}
