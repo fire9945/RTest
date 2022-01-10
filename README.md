@@ -9,7 +9,7 @@
 
 
 ## About
-This repo contains the implementation and the experimetal results of a method for blind revereberation time (T60) estimation using Attentive pooling-based Weighted Sum of Spectral Decay Rates (AWSSDR). An entire system of the T60 estimation method using AWSSDR is as follows:
+This repo contains the implementation and experimetal results of a method for blind revereberation time (T60) estimation using Attentive pooling-based Weighted Sum of Spectral Decay Rates (AWSSDR). An entire system of the T60 estimation method using AWSSDR is as follows:
 
 ![전체흐름도 수정](https://user-images.githubusercontent.com/26379533/148699432-aaa7a6f6-594f-40db-94db-6ffc41126f34.PNG)
 
