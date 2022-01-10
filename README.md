@@ -15,7 +15,8 @@ As the SDRs rely not only on reverberation, but also on speech context, noise, a
 Therefore, we introduce a soft decision mechanism that assigns a weight to each SDR according to the importance of the information about reverberation contained in each SDR, and estimate the weights by applying an attention mechanism in deep learning approaches. That's AWSSDR! <br/>
 An entire system of the T60 estimation method using AWSSDR is as follows:
 
-![전체흐름도 수정](https://user-images.githubusercontent.com/26379533/148712728-d47d4e74-f8b2-4966-a67f-a5f406ae63bf.PNG)
+![전체흐름도 수정](https://user-images.githubusercontent.com/26379533/148723147-5a081897-b4a9-445b-bb01-f650f7240269.PNG)
+
 
 The entire system is designed as a two-stage fusion process:
 1. Attentive pooling stage 
