@@ -13,7 +13,11 @@ This repo contains the implementation and experimetal results of a method for bl
 
 ![전체흐름도 수정](https://user-images.githubusercontent.com/26379533/148699432-aaa7a6f6-594f-40db-94db-6ffc41126f34.PNG)
 
-The entire system includes two sub networks:the weight estimation network and T60 mapping network.
+The entire system includes two sub networks:
+1. Weight estimation network 
+2. T60 mapping network.
+
+
 
 
 ## Implementation
