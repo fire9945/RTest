@@ -45,7 +45,7 @@ Similar to the datasets of the ACE challenge[ref1], training data were generated
 
 Two sets of training data were built. <br/>
 Common : RIRs (538 measured RIRs with T60 values between 0.1 and 1.5s from publicly available databases),  <br/>
-<t/>         noises (6 types) <br/>
+&nasp; noises (6 types) <br/>
 Set 1 : anechoic speech (TIMIT corpus), total 29,052 utt. <br/>
 Set 2 : anechoic speech (TIMIT corpus + additional short utterances), total 58,104 utt. <br/>
 
