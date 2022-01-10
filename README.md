@@ -59,7 +59,8 @@ Evaluation data: ACE Challenge EVAL set
   
 We compared the performance of our blind T60 estimation method with those of previously published state-of-the-art methods [2]–[7] for the EVAL dataset of the ACE Challenge. For comparison, algorithms submitted to the ACE Challenge [2]-[4] and deep learning approaches with a CNN structure [5]–[7] were employed. It should be noted that, for the CRNN method [7], it is difficult to make a fair comparison because the performance was evaluated by selecting only data longer than 4 s, which showed relatively good performance. Set 1 and set 2 are the training data described above. 
 
-  <p align="left">Table 1. Performance comparison of blind T60 estimation<p align="left">
+<p align="left">Table 1. Performance comparison of blind T60 estimation<p align="left">
+
 |Algorithm|Bias|MSE|*ρ*|
 |---|---|---|---|
 |QA Reverb[2]|-0.0680|0.0648|0.778|
