@@ -34,8 +34,8 @@ Similar to the datasets of the ACE challenge[ref1], training data were generated
 
 Two sets of training data were generated. <br/>
 Common : RIRs (538 measured RIRs with T60 values between 0.1 and 1.5s from publicly available databases), noises (6 types) <br/>
-Set 1 : anechoic speech (TIMIT corpus), total 29,052 utt. <br/>
-Set 2 : anechoic speech (TIMIT corpus + additional short utterances), total 58,104 utt. <br/>
+Set 1: anechoic speech (TIMIT corpus), total 29,052 utt. <br/>
+Set 2: anechoic speech (TIMIT corpus + additional short utterances), total 58,104 utt. <br/>
 **_Most algorithms submitted to the ACE Challenge performed better with longer utterances. Considering this, we tried to improve the performance of T60 estimation for short utterances by generating additional training data (set 2) including short utterances._**
 
 All data samples were resampled to a sampling frequency of 16 kHz.
@@ -53,10 +53,54 @@ The pytorch deep learning framework was used for implementing proposed method. W
 <p align="center">Fig. 2. Loss tracking of training and validation data. (a) Training with the large batch. (b) Training with the small multi-batch.<p align="center">
 
 
+### Results
+#### Performance comparison of blind T60 estimation
+Evaluation data: ACE Challenge EVAL set
+
+  
+\begin{table}[t!]
+\caption{Performance Comparison of Blind T$_{60}$ Estimation}
+\label{experiment results}
+\renewcommand{\arraystretch}{1.2}
+\setlength{\tabcolsep}{16pt}
+\centering
+\begin{tabular}{cccc}
+\hline\hline
+Algorithm &	Bias & MSE	& ${\rho}$ \\
+\hline
+QA Reverb [4] &	-0.0680 &	0.0648 &	0.778 \\
+\hline
+SDDSA [6] &	-0.0423 &	0.0803 &	0.600\\
+\hline
+MLP [7] &	-0.0967 &	0.1040 &	0.480 \\
+\hline
+CNN [8] &	0.0304 &	0.0384 &	0.836 \\
+\hline
+CNN+AIRA [9] &	-0.0264 &	0.0261 &	0.920\\
+\hline
+CRNN [10] &	-0.0488 & 	0.0206 &	0.917 \\
+\hline
+AWSSDR (set 1) &	-0.0091 &	0.0166 &	0.936\\
+\hline
+AWSSDR (set 2) &	0.0268 &	0.0131 &	0.953 \\
+\hline\hline 
+\end{tabular}
+\end{table}
 
 
-
-
+  Fullband T60 estimation results by parameter
+  FB T60 estimation error in all noises and all SNRs for a) female talkers and b) male talkers
+  Single channel FB T60 estimation error in all noises and all SNRs for a) T60 †0.43 s b) 0.43 §T60 † 0.75 s and c) T60 • 0.75 s. Observe
+that ⇢ † 0 for all except algorithm D
+  FB T60 estimation error in all noises at a), 18 dB SNR, b), 12 dB SNR, and c) ´1dB SNR
+  FB T60 estimation error in all noises and all SNRs for a) utterance length †5 s b) utterance length † 15 s and c) utterance length • 15 s
+  
+T60 estimation algorithm performance in all noises for all SNRs
+  
+Fullband T60 estimation results by noise type
+  Ambient noise
+  Fullband T60 estimation error in ambient noise for all SNRs
+  T60 estimation algorithm performance in ambient noise for all SNRs
 
 
 
