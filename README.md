@@ -46,6 +46,11 @@ Fig. 2(a) show
 
 
 
+![kim4a](https://user-images.githubusercontent.com/26379533/148745735-83801ac0-1aec-4af2-b454-e9ef19aeed8a.png)
+<p align="center">This is a centered caption for the image<p align="center">
+
+![kim4b](https://user-images.githubusercontent.com/26379533/148745779-a0d21058-c094-4032-98ad-d00bf56f460f.png)
+
 
 
 
