@@ -69,7 +69,7 @@ Evaluation data: ACE Challenge EVAL set
 |**AWSSDR (set 1)**|**-0.0091**|**0.0166**|**0.936**|
 |**AWSSDR (set 2)**|**0.0268**|**0.0131**|**0.953**|
 
-**_FDNSV: filterbank dependent Negative Sideband Variance (NSV), NSV is statistical feature for estimating T60 in SDD method [7]._**
+**cf.** **_FDNSV: filterbank dependent Negative Sideband Variance (NSV), NSV is statistical feature for estimating T60 in SDD method [7]._**
   
   
 
