@@ -54,17 +54,20 @@ The pytorch deep learning framework was used for implementing proposed method. W
 
 
 ### Results
-#### Performance comparison of blind T60 estimation
+#### Performance comparison
 Evaluation data: ACE Challenge EVAL set
+  
+We compared the performance of our blind T60 estimation method with those of previously published state-of-the-art methods [2]–[7] for the EVAL dataset of the ACE Challenge. For comparison, algorithms submitted to the ACE Challenge [2]-[4] and deep learning approaches with a CNN structure [5]–[7] were employed. It should be noted that, for the CRNN method [7], it is difficult to make a fair comparison because the performance was evaluated by selecting only data longer than 4 s, which showed relatively good performance. Set 1 and set 2 are the training data described above. 
 
+  <p align="left">Table 1. Performance comparison of blind T60 estimation<p align="left">
 |Algorithm|Bias|MSE|*ρ*|
 |---|---|---|---|
-|QA Reverb|-0.0680|0.0648|0.778|
-|SDDSA [2]|-0.0423|0.0803|0.600|
-|MLP [3]|-0.0967|0.1040|0.480|
-|CNN [4]|0.0304|0.0384|0.836|
-|CNN+AIRA [5]|-0.0264|0.0261|0.920|
-|CRNN [6]|-0.0488|0.0206|0.917|
+|QA Reverb[2]|-0.0680|0.0648|0.778|
+|SDDSA [3]|-0.0423|0.0803|0.600|
+|MLP [4]|-0.0967|0.1040|0.480|
+|CNN [5]|0.0304|0.0384|0.836|
+|CNN+AIRA [6]|-0.0264|0.0261|0.920|
+|CRNN [7]|-0.0488|0.0206|0.917|
 |**FDNSV (set 1)**|**-0.1664**|**0.0910**|**0.736**|
 |**AWSSDR (set 1)**|**-0.0091**|**0.0166**|**0.936**|
 |**AWSSDR (set 2)**|**0.0268**|**0.0131**|**0.953**|
