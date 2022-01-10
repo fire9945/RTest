@@ -46,10 +46,11 @@ Fig. 2(a) show
 
 
 
-![kim4a](https://user-images.githubusercontent.com/26379533/148745735-83801ac0-1aec-4af2-b454-e9ef19aeed8a.png)
-<p align="center">This is a centered caption for the image<p align="center">
-
-![kim4b](https://user-images.githubusercontent.com/26379533/148745779-a0d21058-c094-4032-98ad-d00bf56f460f.png)
+![포맷변환 fig4a](https://user-images.githubusercontent.com/26379533/148746078-0feeb270-f866-47cc-ba34-9bc585dcb6fa.png)
+<p align="center">(a)<p align="center">
+![포맷변환 fig4b](https://user-images.githubusercontent.com/26379533/148746159-8679355e-2445-4e4c-a6db-ba1ca976ceba.png)
+<p align="center">(b)<p align="center">
+  <p align="center">Fig. 4. Loss tracking of training and validation data. (a) Training with the large batch. (b) Training with the small multi-batch.<p align="center">
 
 
 
