@@ -56,7 +56,7 @@ The pytorch deep learning framework was used for implementing proposed method. W
 
 
 
-<포맷변환 fig4b src="https://user-images.githubusercontent.com/26379533/148746576-e2dccf24-32c2-486d-8685-9c31fea76feb.png" width="200" height="400"/>
+<img src="https://user-images.githubusercontent.com/26379533/148746576-e2dccf24-32c2-486d-8685-9c31fea76feb.png" width="200" height="400"/>
 
 
 
