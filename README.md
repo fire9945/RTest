@@ -47,10 +47,10 @@ Fig. 2(a) show
 
 
 ![포맷변환 fig4a](https://user-images.githubusercontent.com/26379533/148746078-0feeb270-f866-47cc-ba34-9bc585dcb6fa.png)
-<p align="center">**(a)**<p align="center">
+<p align="center">(a)<p align="center">
   
 ![포맷변환 fig4b](https://user-images.githubusercontent.com/26379533/148746576-e2dccf24-32c2-486d-8685-9c31fea76feb.png)
-<p align="center">**(b)**<p align="center">
+<p align="center">(b)<p align="center">
   
 <p align="center">Fig. 4. Loss tracking of training and validation data. (a) Training with the large batch. (b) Training with the small multi-batch.<p align="center">
 
