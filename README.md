@@ -19,7 +19,7 @@ An entire system of the T60 estimation method using AWSSDR is as follows:
 <p align="center">Fig. 1. Illustration of proposed T60 estimation method using the AWSSDR.<p align="center">
 
 
-*The entire system is designed as a two-stage fusion process:*
+The entire system is designed as a two-stage fusion process:
 1. Attentive pooling stage 
 2. T60 mapping stage
 
@@ -69,8 +69,9 @@ Evaluation data: ACE Challenge EVAL set
 |AWSSDR (set 1)|-0.0091|0.0166|0.936|
 |<span style="color:red">AWSSDR (set 2)</span>|0.0268|0.0131|0.953|
 
+  *Hi*
   
- |<span style="color:red">AWSSDR (set 2)</span>|<span style="color:red">0.0268</span>|<span style="color:red">0.0131</span>|<span style="color:red">0.953</span>| 
+  
 \begin{table}[t!]
 \caption{Performance Comparison of Blind T$_{60}$ Estimation}
 \label{experiment results}
