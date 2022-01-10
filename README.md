@@ -18,7 +18,7 @@ This repo contains the implementation and experimetal results of a method for bl
 
 ### Training
 #### python CUBLAS_WORKSPACE_CONFIG=:4096:8 1_trainset*.py
-#### (\* = training set number)
+#### (\* = training set{1,2} number)
 
 ##### The trained model is stored in checkpoints/'model_name.dnn'
 
