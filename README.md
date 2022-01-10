@@ -7,7 +7,7 @@
 
 ![header](https://capsule-render.vercel.app/api?type=Rect&color=auto&height=200&section=footer&text=Blind%20T60%20Estimation&fontSize=70&textBg=true)
 
-<span style="color:red">Red Text</span>
+
 ## About
 This repo contains the implementation and experimetal results of a method for blind revereberation time (T60) estimation using an Attentive pooling-based Weighted Sum of Spectral Decay Rates (AWSSDR). <br/>
 Spectral Decay Rates (SDRs), which represent the degree to which the energy of a speech signal decays over time in the time–frequency domain, are related to physical properties of reverberation. Conventional blind T60 esimation methods using SDRs select the SDRs that better represent the characteristics of reverberation, but they have limitations in that they employ a hard decision mechanism whether to select an SDR or not, and consider the selected SDRs to be equally important.  <br/> 
@@ -65,57 +65,13 @@ Evaluation data: ACE Challenge EVAL set
 |CNN [4]|0.0304|0.0384|0.836|
 |CNN+AIRA [5]|-0.0264|0.0261|0.920|
 |CRNN [6]|-0.0488|0.0206|0.917|
-|FDNSV (set 1)|-0.1664|0.0910|0.736|
-|AWSSDR (set 1)|-0.0091|0.0166|0.936|
-|<span style="color:red">AWSSDR (set 2)</span>|0.0268|0.0131|0.953|
+|**FDNSV (set 1)**|**-0.1664**|**0.0910**|**0.736**|
+|**AWSSDR (set 1)**|**-0.0091**|**0.0166**|**0.936**|
+|**AWSSDR (set 2)**|**0.0268**|**0.0131**|**0.953**|
 
-  *Hi*
+**_FDNSV: filterbank dependent Negative Sideband Variance (NSV), NSV is statistical feature for estimating T60 in SDD method [7]._**
   
   
-\begin{table}[t!]
-\caption{Performance Comparison of Blind T$_{60}$ Estimation}
-\label{experiment results}
-\renewcommand{\arraystretch}{1.2}
-\setlength{\tabcolsep}{16pt}
-\centering
-\begin{tabular}{cccc}
-\hline\hline
-Algorithm &	Bias & MSE	& ${\rho}$ \\
-\hline
-QA Reverb [4] &	-0.0680 &	0.0648 &	0.778 \\
-\hline
-SDDSA [6] &	-0.0423 &	0.0803 &	0.600\\
-\hline
-MLP [7] &	-0.0967 &	0.1040 &	0.480 \\
-\hline
-CNN [8] &	0.0304 &	0.0384 &	0.836 \\
-\hline
-CNN+AIRA [9] &	-0.0264 &	0.0261 &	0.920\\
-\hline
-CRNN [10] &	-0.0488 & 	0.0206 &	0.917 \\
-\hline
-AWSSDR (set 1) &	-0.0091 &	0.0166 &	0.936\\
-\hline
-AWSSDR (set 2) &	0.0268 &	0.0131 &	0.953 \\
-\hline\hline 
-\end{tabular}
-\end{table}
-
-
-  Fullband T60 estimation results by parameter
-  FB T60 estimation error in all noises and all SNRs for a) female talkers and b) male talkers
-  Single channel FB T60 estimation error in all noises and all SNRs for a) T60 †0.43 s b) 0.43 §T60 † 0.75 s and c) T60 • 0.75 s. Observe
-that ⇢ † 0 for all except algorithm D
-  FB T60 estimation error in all noises at a), 18 dB SNR, b), 12 dB SNR, and c) ´1dB SNR
-  FB T60 estimation error in all noises and all SNRs for a) utterance length †5 s b) utterance length † 15 s and c) utterance length • 15 s
-  
-T60 estimation algorithm performance in all noises for all SNRs
-  
-Fullband T60 estimation results by noise type
-  Ambient noise
-  Fullband T60 estimation error in ambient noise for all SNRs
-  T60 estimation algorithm performance in ambient noise for all SNRs
-
 
 
 ## Implementation
