@@ -13,13 +13,12 @@ This repo contains the implementation and experimetal results of a method for bl
 
 ![전체흐름도 수정](https://user-images.githubusercontent.com/26379533/148712728-d47d4e74-f8b2-4966-a67f-a5f406ae63bf.PNG)
 
+The entire system is designed as a two-stage fusion process:
+1. Attentive pooling stage 
+2. T60 mapping stage
 
-
-The entire system includes two sub networks:
-1. Weight estimation network 
-2. T60 mapping network.
-
-
+AWSSDR, reverberant environmental feature that reflects the imbalance in the influence of the reverberation, is produced through attentive pooling stage, and used for T60 estimation in T60 mapping stage.
+The parameters of two sub networks: the weight estimation network and mapping network are simultaneously optimized to minimize the squared error between estimated T60 and ground truth T60.
 
 
 ## Implementation
