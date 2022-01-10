@@ -58,7 +58,7 @@ The pytorch deep learning framework was used for implementing proposed method. W
 Evaluation data: ACE Challenge EVAL set
 
 |Algorithm|Bias|MSE|*ρ*|
-|||||
+|---|---|---|---|
   
   
 \begin{table}[t!]
