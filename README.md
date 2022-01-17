@@ -69,14 +69,14 @@ We compared the performance of our blind T60 estimation method with those of pre
 |CNN [5]|0.0304|0.0384|0.836|
 |CNN+AIRA [6]|-0.0264|0.0261|0.920|
 |CRNN [7]|-0.0488|0.0206|0.917|
-|**FDNSV (set 1)**|**-0.1664**|**0.0910**|**0.736**|
 |**AWSSDR (set 1)**|**-0.0091**|**0.0166**|**0.936**|
 |**AWSSDR (set 2)**|**0.0268**|**0.0131**|**0.953**|
+|**FDSDD (set 1)**|**-0.1664**|**0.0910**|**0.736**|
 
 **cf.** **_FDNSV: filterbank dependent Negative Sideband Variance (NSV), NSV is statistical feature for estimating T60 in SDD method [7]._**
   
-  
-
+As shown in Fig. 4. we visualized AWSSDR and FDSDD using t-SNE [29] to observe whether these features are distinguished according to T60.    
+<t-SNE 그림 추가>
 
 ## Implementation
 
