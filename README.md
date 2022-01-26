@@ -66,23 +66,12 @@ The pytorch deep learning framework was used for implementing proposed method. W
 #### Performance comparison
 Evaluation data: ACE Challenge EVAL set
   
-We compared the performance of our blind T60 estimation method with those of previously published state-of-the-art methods [2]–[7] for the EVAL dataset of the ACE Challenge. For comparison, algorithms submitted to the ACE Challenge [2]-[4] and deep learning approaches with a CNN structure [5]–[7] were employed. It should be noted that, for the CRNN method [7], it is difficult to make a fair comparison because the performance was evaluated by selecting only data longer than 4 s, which showed relatively good performance. Set 1 and set 2 are the training data described above. 
+We compared the performance of our blind T60 estimation method with those of previously published state-of-the-art methods for the EVAL dataset of the ACE Challenge. For comparison, algorithms submitted to the ACE Challenge and deep learning approaches with a CNN structure were employed. It should be noted that, for the CRNN method, it is difficult to make a fair comparison because the performance was evaluated by selecting only data longer than 4 s, which showed relatively good performance. Set 1 and set 2 are the training data described in Ⅲ-A-2. 
+Additionally, we evaluated the T60 estimation performance combining the conventional SDR approaches with our mapping network. Because it is difficult to optimize the deep learning-based mapping network with the one-dimensional reverberant environmental features used in the SDD and SDDSA methods, we constructed a reverberant environmental feature by obtaining the NSVs used in the SDD method for each filterbank and trained the mapping network using it as input to the T60 mapping stage. Henceforth we refer to this method as filterbank dependent SDD (FDSDD).
 
-<p align="left">Table 1. Performance comparison of blind T60 estimation<p align="left">
+ ![performance table](https://user-images.githubusercontent.com/26379533/151105251-8bc8c196-1a61-45af-bf93-25eb4c71073c.PNG)
 
-|Algorithm|Bias|MSE|*ρ*|
-|---|---|---|---|
-|QA Reverb[2]|-0.0680|0.0648|0.778|
-|SDDSA [3]|-0.0423|0.0803|0.600|
-|MLP [4]|-0.0967|0.1040|0.480|
-|CNN [5]|0.0304|0.0384|0.836|
-|CNN+AIRA [6]|-0.0264|0.0261|0.920|
-|CRNN [7]|-0.0488|0.0206|0.917|
-|**AWSSDR (set 1)**|**-0.0091**|**0.0166**|**0.936**|
-|**AWSSDR (set 2)**|**0.0268**|**0.0131**|**0.953**|
-|**FDSDD (set 1)**|**-0.1664**|**0.0910**|**0.736**|
-
-**cf.** **_FDNSV: filterbank dependent Negative Sideband Variance (NSV), NSV is statistical feature for estimating T60 in SDD method [7]._**
+Table II shows a comparison of the performance of the proposed method and those of the six previously published methods. The bias, MSE, and ρ were the evaluation criteria used in the ACE Challenge, and they represent the mean of the estimation error, mean squared error, and Pearson correlation coefficient between the   and the ground truth T60, respectively. As can be seen, the performance of our blind T60 estimation method outperforms previously published state-of-the-art methods for all evaluation criteria and training dataset including short utterances (set 2) achieved greater improvement.
   
 As shown in Fig. 4. we visualized AWSSDR and FDSDD using t-SNE [29] to observe whether these features are distinguished according to T60.    
 <t-SNE 그림 추가>
