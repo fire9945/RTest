@@ -35,6 +35,7 @@ Similar to the datasets of the ACE challenge[ref1], training data were generated
 Two sets of training data were generated. <br/>
 Common : RIRs (538 measured RIRs with T60 values between 0.1 and 1.5s from publicly available databases), noises (6 types) <br/>
 Set 1: anechoic speech (TIMIT corpus), total 29,052 utt. <br/>
+**_ In [9], the specifications for noise types and SNR levels of DEV dataset are followed for generating training samples. Our training dataset (set 1) was configured similarly to the CNN method in terms of the range of T60, the anechoic speech, and the SNR level._**
 Set 2: anechoic speech (TIMIT corpus + additional short utterances), total 58,104 utt. <br/>
 **_Most algorithms submitted to the ACE Challenge performed better with longer utterances. Considering this, we tried to improve the performance of T60 estimation for short utterances by generating additional training data (set 2) including short utterances._**
 
