@@ -137,25 +137,25 @@ where the results of SDDSA method are reported in [17]
   ------------------------------------------------------------------------------------------------------------------------------------
  ### T60 estimation results by parameter
  
-<p align="center"><img src="https://user-images.githubusercontent.com/26379533/151317122-3f2ff2d6-8d23-49bf-8edc-5acbc5606355.PNG" width="500" height="500"/><p align="center"> 
+<p align="center"><img src="https://user-images.githubusercontent.com/26379533/151317122-3f2ff2d6-8d23-49bf-8edc-5acbc5606355.PNG" width="500" height="450"/><p align="center"> 
  **<p align="center">Fig. 4. T60 estimation error for sentences<p align="center">**
 
-<p align="center"><img src="https://user-images.githubusercontent.com/26379533/151317369-7099f66f-ab83-4f43-8830-1bfdb74f409c.PNG" width="500" height="500"/><p align="center">
+<p align="center"><img src="https://user-images.githubusercontent.com/26379533/151317369-7099f66f-ab83-4f43-8830-1bfdb74f409c.PNG" width="600" height="400"/><p align="center">
 **<p align="center">Fig. 5. T60 estimation error for rooms<p align="center">**
 
-<p align="center"><img src="https://user-images.githubusercontent.com/26379533/151317407-1a04d9b8-e69a-4d02-853e-1eff546b3468.png" width="500" height="500"/><p align="center">
+<p align="center"><img src="https://user-images.githubusercontent.com/26379533/151317407-1a04d9b8-e69a-4d02-853e-1eff546b3468.png" width="500" height="400"/><p align="center">
 **<p align="center">Fig. 6. T60 estimation error for gender<p align="center">**
  
-<p align="center"><img src="https://user-images.githubusercontent.com/26379533/151317408-c4614760-88b6-4aaf-a113-feebf136bd58.png" width="500" height="500"/><p align="center">
+<p align="center"><img src="https://user-images.githubusercontent.com/26379533/151317408-c4614760-88b6-4aaf-a113-feebf136bd58.png" width="400" height="500"/><p align="center">
 **<p align="center">Fig. 7. T60 estimation error for noise types<p align="center">**
  
-<p align="center"><img src="https://user-images.githubusercontent.com/26379533/151317409-026d485b-fc34-4de1-8900-dbd4ce345401.png" width="500" height="500"/><p align="center">
+<p align="center"><img src="https://user-images.githubusercontent.com/26379533/151317409-026d485b-fc34-4de1-8900-dbd4ce345401.png" width="400" height="500"/><p align="center">
 **<p align="center">Fig. 8. T60 estimation error for SNR level<p align="center">**
  
-<p align="center"><img src="https://user-images.githubusercontent.com/26379533/151317411-8c77af69-1f11-408a-9f03-e8e359536388.png" width="500" height="500"/><p align="center">
+<p align="center"><img src="https://user-images.githubusercontent.com/26379533/151317411-8c77af69-1f11-408a-9f03-e8e359536388.png" width="600" height="500"/><p align="center">
 **<p align="center">Fig. 9. T60 estimation error for noise types according to SNR level (Set 1)<p align="center">**
  
-<p align="center"><img src="https://user-images.githubusercontent.com/26379533/151317412-14dac43d-98a3-4f61-b700-1012db246158.png" width="500" height="500"/><p align="center">
+<p align="center"><img src="https://user-images.githubusercontent.com/26379533/151317412-14dac43d-98a3-4f61-b700-1012db246158.png" width="600" height="500"/><p align="center">
 **<p align="center">Fig. 10. T60 estimation error for noise types according to SNR level (Set 2)<p align="center">**
  
  --------------------------------------------------------------------------------------------------------------------------
