@@ -28,11 +28,15 @@ The parameters of two sub networks: the weight estimation network and mapping ne
 
 ## Experimental Results
   
-#### Performance comparison  
+### Performance comparison  
+
+**Evaluation data: EVAL dataset of ACE Challenge [1]**
+  
+**[1]	J. Eaton, N. D. Gaubitch, A. H. Moore, and P. A. Naylor, “Estimation of room acoustic parameters: The ACE Challenge,” IEEE/ACM Trans. Audio, Speech, Lang. Process., vol. 24, no. 10, pp. 1681–1693, Oct. 2016.**
  
  ![performance table](https://user-images.githubusercontent.com/26379533/151279409-e4928c8f-b7db-4dd2-88ee-10cbd6ed9d96.PNG)
   
-**[2]T. de M. Prego, A. A. de Lima, R. Zambrano-López, and S. L. Netto, “Blind estimators for reverberation time and direct-to-reverberant energy ratio using subband speech decomposition,” in Proc. IEEE Workshop Appl. Signal Process. Audio Acoust., New Paltz, NY, USA, Oct. 2015, pp. 1–5.**
+**[2] T. de M. Prego, A. A. de Lima, R. Zambrano-López, and S. L. Netto, “Blind estimators for reverberation time and direct-to-reverberant energy ratio using subband speech decomposition,” in Proc. IEEE Workshop Appl. Signal Process. Audio Acoust., New Paltz, NY, USA, Oct. 2015, pp. 1–5.**
   
 **[3]	J. Eaton, N. D. Gaubitch, and P. A. Naylor, “Noise-robust reverberation time estimation using spectral decay distributions with reduced computational cost,” in Proc. IEEE Intl. Conf. Acoust., Speech, Signal Process., Vancouver, BC, Canada, May 2013, pp. 161–165.**
 
