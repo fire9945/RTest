@@ -31,12 +31,18 @@ The parameters of two sub networks: the weight estimation network and mapping ne
 #### Performance comparison  
  
  ![performance table](https://user-images.githubusercontent.com/26379533/151279409-e4928c8f-b7db-4dd2-88ee-10cbd6ed9d96.PNG)
-[2]T. de M. Prego, A. A. de Lima, R. Zambrano-López, and S. L. Netto, “Blind estimators for reverberation time and direct-to-reverberant energy ratio using subband speech decomposition,” in Proc. IEEE Workshop Appl. Signal Process. Audio Acoust., New Paltz, NY, USA, Oct. 2015, pp. 1–5.
-[3]	J. Eaton, N. D. Gaubitch, and P. A. Naylor, “Noise-robust reverberation time estimation using spectral decay distributions with reduced computational cost,” in Proc. IEEE Intl. Conf. Acoust., Speech, Signal Process., Vancouver, BC, Canada, May 2013, pp. 161–165.
-[4]	F. Xiong, S. Goetze, and B. T. Meyer, “Joint estimation of reverberation time and direct-to-reverberation ratio from speech using auditory-inspired features,” in Proc. ACE Challenge Workshop, Satell. Event IEEE-WASPAA, New Paltz, NY, USA, Oct. 2015, pp. 1–5.
-[5]	H. Gamper and I. J. Tashev, “Blind reverberation time estimation using a convolutional neural network,” in Proc. Intl. Workshop Acoust. Signal Enhancement, Tokyo, Japan, Sep. 2018, pp. 136–140.
-[6]	N. J. Bryan, “Impulse response data augmentation and deep neural networks for blind room acoustic parameter estimation,” in Proc. IEEE Intl. Conf. Acoust., Speech Signal Process., Barcelona, Spain, May 2020, pp. 5000–5004.
-[7]	S. Deng, W. Mack, and E. A. P. Habets, “Online blind reverberation time estimation using CRNNs,” in Proc. Interspeech, Shanghai, China, Oct. 2020, pp. 5061–5065.
+  
+**[2]T. de M. Prego, A. A. de Lima, R. Zambrano-López, and S. L. Netto, “Blind estimators for reverberation time and direct-to-reverberant energy ratio using subband speech decomposition,” in Proc. IEEE Workshop Appl. Signal Process. Audio Acoust., New Paltz, NY, USA, Oct. 2015, pp. 1–5.**
+  
+**[3]	J. Eaton, N. D. Gaubitch, and P. A. Naylor, “Noise-robust reverberation time estimation using spectral decay distributions with reduced computational cost,” in Proc. IEEE Intl. Conf. Acoust., Speech, Signal Process., Vancouver, BC, Canada, May 2013, pp. 161–165.**
+
+**[4]	F. Xiong, S. Goetze, and B. T. Meyer, “Joint estimation of reverberation time and direct-to-reverberation ratio from speech using auditory-inspired features,” in Proc. ACE Challenge Workshop, Satell. Event IEEE-WASPAA, New Paltz, NY, USA, Oct. 2015, pp. 1–5.**
+  
+**[5]	H. Gamper and I. J. Tashev, “Blind reverberation time estimation using a convolutional neural network,” in Proc. Intl. Workshop Acoust. Signal Enhancement, Tokyo, Japan, Sep. 2018, pp. 136–140.**
+  
+**[6]	N. J. Bryan, “Impulse response data augmentation and deep neural networks for blind room acoustic parameter estimation,” in Proc. IEEE Intl. Conf. Acoust., Speech Signal Process., Barcelona, Spain, May 2020, pp. 5000–5004.**
+  
+**[7]	S. Deng, W. Mack, and E. A. P. Habets, “Online blind reverberation time estimation using CRNNs,” in Proc. Interspeech, Shanghai, China, Oct. 2020, pp. 5061–5065.**
 
 Table II shows a comparison of the performance of the proposed method and those of the six previously published methods. The bias, MSE, and ρ were the evaluation criteria used in the ACE Challenge, and they represent the mean of the estimation error, mean squared error, and Pearson correlation coefficient between the   and the ground truth T60, respectively. As can be seen, the performance of our blind T60 estimation method outperforms previously published state-of-the-art methods for all evaluation criteria and training dataset including short utterances (set 2) achieved greater improvement.
   
