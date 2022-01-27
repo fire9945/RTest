@@ -116,14 +116,16 @@ where the results of SDDSA method are reported in [17]
 - For high SNR, the FDSDD method outperforms the SDDSA method (Unlike the SDDSA method, the FDSDD method does not consider noise)
 - Our proposed method, the AWSSDR method, achieves best overall performanace. 
  --> The capacity of our proposed method to capture informantion about reverberant environment is superior to conventional SDR approaches.
-   
+ 
+ ### Visualization
+ 
   
 As shown in Fig. 4. we visualized AWSSDR and FDSDD using t-SNE [29] to observe whether these features are distinguished according to T60.    
 <t-SNE 그림 추가>
 
   
-  
-    [Reference]
+  ------------------------------------------------------------------------------------------------------------------------------------
+### Reference
   
 [1]	J. Eaton, N. D. Gaubitch, A. H. Moore, and P. A. Naylor, “Estimation of room acoustic parameters: The ACE Challenge,” IEEE/ACM Trans. Audio, Speech, Lang. Process., vol. 24, no. 10, pp. 1681–1693, Oct. 2016.
 
