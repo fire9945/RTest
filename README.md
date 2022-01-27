@@ -26,7 +26,7 @@ The entire system is designed as a two-stage fusion process:
 The AWSSDR, reverberant environmental feature that reflects the imbalance in the influence of the reverberation, is produced through attentive pooling stage, and used for T60 estimation in T60 mapping stage.
 The parameters of two sub networks: the weight estimation network and mapping network are simultaneously optimized to minimize the squared error between estimated T60 and ground truth T60.
 
-  ------------------------------------------------------------------------------------------------------------------------------------------
+ 
   
 ## Implementation
 
@@ -40,7 +40,7 @@ The parameters of two sub networks: the weight estimation network and mapping ne
 #### python 1_testset*.py
 
   
-------------------------------------------------------------------------------------------------------------------------------------------
+
 
 ## Experimental Results
   
@@ -54,7 +54,7 @@ The parameters of two sub networks: the weight estimation network and mapping ne
 - The bias, MSE, and ρ were the evaluation criteria used in the ACE Challenge, and they represent the mean of the estimation error, mean squared error, and Pearson correlation coefficient between the estimated T60 and the ground truth T60, respectively. 
 - As can be seen, the performance of our blind T60 estimation method outperforms previously published state-of-the-art methods for all evaluation criteria.
 
-
+------------------------------------------------------------------------------------------------------------------------------------------
   
 ### ACE Corpus and datasets
 
@@ -63,6 +63,7 @@ The parameters of two sub networks: the weight estimation network and mapping ne
 - The ACE corpus is a database consisting of anechoic speech utterances, RIRs, and noise that provides realistic noisy reverberant speech utterances for the development and evaluation of acoustic parameter estimation algorithms. 
 - The ACE Challenge provides a development (DEV) dataset and evaluation (EVAL) dataset constructed from the ACE Corpus. Table I presents the speakers, utterances, RIRs, noises, and SNRs that comprise the DEV and EVAL datasets.
 
+------------------------------------------------------------------------------------------------------------------------------------------
   
 ### Settings
 
@@ -96,6 +97,7 @@ The pytorch deep learning framework was used for implementing proposed method.
   
 **<p align="center">Fig. 2. Loss tracking of training and validation data. (a) Training with the large batch. (b) Training with the small multi-batch.<p align="center">**
 
+------------------------------------------------------------------------------------------------------------------------------------------
   
 ### Analysis
 
