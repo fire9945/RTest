@@ -32,9 +32,13 @@ The parameters of two sub networks: the weight estimation network and mapping ne
 
 **Evaluation data: EVAL dataset of ACE Challenge [1]**
   
-[1]	J. Eaton, N. D. Gaubitch, A. H. Moore, and P. A. Naylor, “Estimation of room acoustic parameters: The ACE Challenge,” IEEE/ACM Trans. Audio, Speech, Lang. Process., vol. 24, no. 10, pp. 1681–1693, Oct. 2016.
- 
- ![performance table](https://user-images.githubusercontent.com/26379533/151279409-e4928c8f-b7db-4dd2-88ee-10cbd6ed9d96.PNG)
+  ![performance table](https://user-images.githubusercontent.com/26379533/151280081-e1728498-23a5-4d4c-86f6-3c7fe843b05e.PNG)
+
+- Table I shows a comparison of the performance of the proposed method and those of the six previously published methods. 
+- The bias, MSE, and ρ were the evaluation criteria used in the ACE Challenge, and they represent the mean of the estimation error, mean squared error, and Pearson correlation coefficient between the estimated T60 and the ground truth T60, respectively. 
+- As can be seen, the performance of our blind T60 estimation method outperforms previously published state-of-the-art methods for all evaluation criteria.
+  
+  [1]	J. Eaton, N. D. Gaubitch, A. H. Moore, and P. A. Naylor, “Estimation of room acoustic parameters: The ACE Challenge,” IEEE/ACM Trans. Audio, Speech, Lang. Process., vol. 24, no. 10, pp. 1681–1693, Oct. 2016.
   
 [2] T. de M. Prego, A. A. de Lima, R. Zambrano-López, and S. L. Netto, “Blind estimators for reverberation time and direct-to-reverberant energy ratio using subband speech decomposition,” in Proc. IEEE Workshop Appl. Signal Process. Audio Acoust., New Paltz, NY, USA, Oct. 2015, pp. 1–5.
   
@@ -47,9 +51,6 @@ The parameters of two sub networks: the weight estimation network and mapping ne
 [6]	N. J. Bryan, “Impulse response data augmentation and deep neural networks for blind room acoustic parameter estimation,” in Proc. IEEE Intl. Conf. Acoust., Speech Signal Process., Barcelona, Spain, May 2020, pp. 5000–5004.
   
 [7]	S. Deng, W. Mack, and E. A. P. Habets, “Online blind reverberation time estimation using CRNNs,” in Proc. Interspeech, Shanghai, China, Oct. 2020, pp. 5061–5065.
-
-Table II shows a comparison of the performance of the proposed method and those of the six previously published methods. The bias, MSE, and ρ were the evaluation criteria used in the ACE Challenge, and they represent the mean of the estimation error, mean squared error, and Pearson correlation coefficient between the   and the ground truth T60, respectively. As can be seen, the performance of our blind T60 estimation method outperforms previously published state-of-the-art methods for all evaluation criteria and training dataset including short utterances (set 2) achieved greater improvement.
-  
 
 ### Settings
 
