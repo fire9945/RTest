@@ -16,7 +16,7 @@ Therefore, we introduce a soft decision mechanism that assigns a weight to each 
 An entire system of the T60 estimation method using AWSSDR is as follows:
 
 ![전체흐름도 수정](https://user-images.githubusercontent.com/26379533/148723147-5a081897-b4a9-445b-bb01-f650f7240269.PNG)
-<p align="center">Fig. 1. Illustration of proposed T60 estimation method using the AWSSDR.<p align="center">
+**<p align="center">Fig. 1. Illustration of proposed T60 estimation method using the AWSSDR.<p align="center">**
 
 
 The entire system is designed as a two-stage fusion process:
