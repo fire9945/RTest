@@ -93,10 +93,10 @@ The pytorch deep learning framework was used for implementing proposed method.
 ### Analysis
 
 #### FDSDD : Filterbank dependent SDD
-we evaluated the T60 estimation performance combining the conventional SDR approaches with our mapping network in order to compare how much each of the two stages in our proposed method, namely attentive pooling stage and T60 mapping stage, contributes to the overall performance. 
-- it is difficult to optimize the deep learning-based mapping network with the one-dimensional reverberant environmental features used in the SDD and SDDSA methods
-- we constructed a reverberant environmental feature by obtaining the NSVs used in the SDD method for each filterbank and trained the mapping network using it as input to the T60 mapping stage.
-- we refer to this method as filterbank dependent SDD (FDSDD).
+We evaluated the T60 estimation performance combining the conventional SDR approaches with our mapping network in order to compare how much each of the two stages in our proposed method, namely attentive pooling stage and T60 mapping stage, contributes to the overall performance. 
+- It is difficult to optimize the deep learning-based mapping network with the one-dimensional reverberant environmental features used in the SDD and SDDSA methods
+- We constructed a reverberant environmental feature by obtaining the NSVs used in the SDD method for each filterbank and trained the mapping network using it as input to the T60 mapping stage.
+- We refer to this method as filterbank dependent SDD (FDSDD).
 
 ![T60 estimation results by noise type and SNR level](https://user-images.githubusercontent.com/26379533/151282004-3ea03c5a-85f0-4269-8275-d32c27238fce.PNG)
 
