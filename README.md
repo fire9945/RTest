@@ -122,10 +122,18 @@ where the results of SDDSA method are reported in [17]
  ### Visualization
  -  We visualized AWSSDR and FDSDD using t-SNE [18] to observe whether these features are distinguished according to T60.   
  
+ #### Dataset for visualization
+ - In the case of the training data, it is difficult to cluster using t-SNE because the data of T60=0.1~1.5s have an ambiguous boundary.
+ - In the case of the evaluation data (ACE EVAL dataset), it is not suitable for visualization since three of the five types of rooms have similar T60 values, and one room has a relatively large difference. 
+ 
+ --> We generated new dataset for visualization using anechoic speech, noises, RIRs used in generating training dataset
+ - Among the 538 RIRs, RIRs with T60 values closest to [0.2, 0.4, 0.6, 0.8, 1.1, 1.2, 1.4]s were selected & 10 utterances were randomly selected from 3696 utterances of TIMIT corpus
+ - The same noises were used. / Simulated data were generated with the same process that generate training data
+ 
  ![tSNE_feature](https://user-images.githubusercontent.com/26379533/151288088-672cc1e6-bc1f-4e33-8120-190a2aee608b.PNG)
 **<p align="center">Fig. 3. Visualization of AWSSDR and FDSDD by SNR. <p align="center">**
-
  
+
   ------------------------------------------------------------------------------------------------------------------------------------
 ### Reference
   
