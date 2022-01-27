@@ -123,8 +123,9 @@ where the results of SDDSA method are reported in [17]
  -  We visualized AWSSDR and FDSDD using t-SNE [18] to observe whether these features are distinguished according to T60.   
  
  ![tSNE_feature](https://user-images.githubusercontent.com/26379533/151288088-672cc1e6-bc1f-4e33-8120-190a2aee608b.PNG)
+**<p align="center">Fig. 3. Visualization of AWSSDR and FDSDD by SNR. <p align="center">**
 
- **<p align="center">Fig. 3. Visualization of AWSSDR and FDSDD by SNR. <p align="center">**
+ 
   ------------------------------------------------------------------------------------------------------------------------------------
 ### Reference
   
