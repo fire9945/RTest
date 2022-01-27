@@ -162,12 +162,12 @@ where the results of SDDSA method are reported in [17]
 **<p align="center">Fig. 8. T60 estimation error for SNR level<p align="center">**
  
  
-<p align="center"><img src="https://user-images.githubusercontent.com/26379533/151317411-8c77af69-1f11-408a-9f03-e8e359536388.png" width="600" height="450"/><p align="center">
+<p align="center"><img src="https://user-images.githubusercontent.com/26379533/151317411-8c77af69-1f11-408a-9f03-e8e359536388.png" width="600" height="400"/><p align="center">
  
 **<p align="center">Fig. 9. T60 estimation error for noise types according to SNR level (Set 1)<p align="center">**
  
  
-<p align="center"><img src="https://user-images.githubusercontent.com/26379533/151317412-14dac43d-98a3-4f61-b700-1012db246158.png" width="600" height="450"/><p align="center">
+<p align="center"><img src="https://user-images.githubusercontent.com/26379533/151317412-14dac43d-98a3-4f61-b700-1012db246158.png" width="600" height="400"/><p align="center">
  
 **<p align="center">Fig. 10. T60 estimation error for noise types according to SNR level (Set 2)<p align="center">**
  
