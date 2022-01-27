@@ -117,10 +117,14 @@ where the results of SDDSA method are reported in [17]
 - Our proposed method, the AWSSDR method, achieves best overall performanace. 
  --> The capacity of our proposed method to capture informantion about reverberant environment is superior to conventional SDR approaches.
  
+   ------------------------------------------------------------------------------------------------------------------------------------
+ 
  ### Visualization
+ -  We visualized AWSSDR and FDSDD using t-SNE [18] to observe whether these features are distinguished according to T60.   
+ 
  
   
-As shown in Fig. 4. we visualized AWSSDR and FDSDD using t-SNE [29] to observe whether these features are distinguished according to T60.    
+As shown in Fig. 4. 
 <t-SNE 그림 추가>
 
   
