@@ -113,7 +113,9 @@ where the results of SDDSA method are reported in [17]
   
 
 
-- For high SNR, FDSDD method outperforms the SDDSA method (Unlike SDDSA, it does not consider noise)
+- For high SNR, the FDSDD method outperforms the SDDSA method (Unlike the SDDSA method, the FDSDD method does not consider noise)
+- Our proposed method, the AWSSDR method, achieves best overall performanace. 
+ --> The capacity of our proposed method to capture informantion about reverberant environment is superior to conventional SDR approaches.
    
   
 As shown in Fig. 4. we visualized AWSSDR and FDSDD using t-SNE [29] to observe whether these features are distinguished according to T60.    
