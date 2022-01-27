@@ -208,4 +208,5 @@ where the results of SDDSA method are reported in [17]
   
 [17]	J. Eaton, N. D. Gaubitch, A. H. Moore, and P. A. Naylor, “Acoustic characterization of Environments (ACE) challenge results technical report,” Tech. Rep., Imperial College London, 2017. [Online]. Available: https://arxiv.org/abs/1606.03365
   
+[18] L. V. D. Maaten and G. Hinton, “Visualizing data using T-SNE,” J. Mach. Learn. Res., vol. 9, pp. 2579–2605, 2008.
   
