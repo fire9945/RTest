@@ -26,6 +26,7 @@ The entire system is designed as a two-stage fusion process:
 The AWSSDR, reverberant environmental feature that reflects the imbalance in the influence of the reverberation, is produced through attentive pooling stage, and used for T60 estimation in T60 mapping stage.
 The parameters of two sub networks: the weight estimation network and mapping network are simultaneously optimized to minimize the squared error between estimated T60 and ground truth T60.
 
+  ------------------------------------------------------------------------------------------------------------------------------------------
   
 ## Implementation
 
@@ -34,11 +35,12 @@ The parameters of two sub networks: the weight estimation network and mapping ne
 #### (\* = training set{1,2} number)
 
 ##### The trained model is stored in checkpoints/'model_name.dnn'
-
   
 ### Evaluation
 #### python 1_testset*.py
 
+  
+------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Experimental Results
   
