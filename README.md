@@ -137,6 +137,7 @@ where the results of SDDSA method are reported in [17]
   ------------------------------------------------------------------------------------------------------------------------------------
  ### T60 estimation results by parameter
   <center><img src="https://user-images.githubusercontent.com/26379533/151317122-3f2ff2d6-8d23-49bf-8edc-5acbc5606355.PNG" width="300" height="300"/></center>  
+ 
  **<p align="center">Fig. 4. T60 estimation error for sentences<p align="center">**
 
  ![boxPlot_2](https://user-images.githubusercontent.com/26379533/151317369-7099f66f-ab83-4f43-8830-1bfdb74f409c.PNG)
