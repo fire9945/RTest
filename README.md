@@ -15,7 +15,7 @@ As the SDRs rely not only on reverberation, but also on speech context, noise, a
 Therefore, we introduce a soft decision mechanism that assigns a weight to each SDR according to the importance of the information about reverberation contained in each SDR, and estimate the weights by applying an attention mechanism in deep learning approaches. That's the AWSSDR! <br/>
 An entire system of the T60 estimation method using AWSSDR is as follows:
 
-<p align="center">![전체흐름도 수정](https://user-images.githubusercontent.com/26379533/148723147-5a081897-b4a9-445b-bb01-f650f7240269.PNG)<p align="center">
+![전체흐름도 수정](https://user-images.githubusercontent.com/26379533/148723147-5a081897-b4a9-445b-bb01-f650f7240269.PNG)
 **<p align="center">Fig. 1. Illustration of proposed T60 estimation method using the AWSSDR.<p align="center">**
 
 
@@ -89,10 +89,10 @@ The pytorch deep learning framework was used for implementing proposed method.
 - If a large batch is used, the difference in the length of the sequences included in the batch becomes large. Because of this, short sequences are excessively padded, which lowers the stability of the training, as shown in Fig. 2(a). Therefore, we batched the training sequences according to their length order and used a small batch. 
 - To achieve the same effect as using a large batch we updated the model at once after calculating the gradients of multiple batches. Fig. 2(b) shows that this method improves the training stability. The batch size was set to 16, and the model was updated every 16 batches.
 
-<center><img src="https://user-images.githubusercontent.com/26379533/148746078-0feeb270-f866-47cc-ba34-9bc585dcb6fa.png" width="800" height="200"/></center>
+<p align="center"><img src="https://user-images.githubusercontent.com/26379533/148746078-0feeb270-f866-47cc-ba34-9bc585dcb6fa.png" width="800" height="200"/><p align="center">
 <p align="center">(a)<p align="center">
   
-<center><img src="https://user-images.githubusercontent.com/26379533/148746576-e2dccf24-32c2-486d-8685-9c31fea76feb.png" width="800" height="200"/></center>  
+<p align="center"><img src="https://user-images.githubusercontent.com/26379533/148746576-e2dccf24-32c2-486d-8685-9c31fea76feb.png" width="800" height="200"/><p align="center">
 <p align="center">(b)<p align="center">
   
 **<p align="center">Fig. 2. Loss tracking of training and validation data. (a) Training with the large batch. (b) Training with the small multi-batch.<p align="center">**
@@ -130,36 +130,34 @@ where the results of SDDSA method are reported in [17]
  - Among the 538 RIRs, RIRs with T60 values closest to [0.2, 0.4, 0.6, 0.8, 1.1, 1.2, 1.4]s were selected & 10 utterances were randomly selected from 3696 utterances of TIMIT corpus
  - The same noises were used. / Simulated data were generated with the same process that generate training data
  
- ![tSNE_feature](https://user-images.githubusercontent.com/26379533/151288088-672cc1e6-bc1f-4e33-8120-190a2aee608b.PNG)
+<p align="center"><img src="https://user-images.githubusercontent.com/26379533/151288088-672cc1e6-bc1f-4e33-8120-190a2aee608b.PNG" width="500" height="500"/><p align="center">
 **<p align="center">Fig. 3. Visualization of AWSSDR and FDSDD by SNR. <p align="center">**
  
 
   ------------------------------------------------------------------------------------------------------------------------------------
  ### T60 estimation results by parameter
  
-  <p align="center"><img src="https://user-images.githubusercontent.com/26379533/151317122-3f2ff2d6-8d23-49bf-8edc-5acbc5606355.PNG" width="500" height="500"/><p align="center">
- 
+<p align="center"><img src="https://user-images.githubusercontent.com/26379533/151317122-3f2ff2d6-8d23-49bf-8edc-5acbc5606355.PNG" width="500" height="500"/><p align="center"> 
  **<p align="center">Fig. 4. T60 estimation error for sentences<p align="center">**
 
- ![boxPlot_2](https://user-images.githubusercontent.com/26379533/151317369-7099f66f-ab83-4f43-8830-1bfdb74f409c.PNG)
-  **<p align="center">Fig. 5. T60 estimation error for rooms<p align="center">**
+<p align="center"><img src="https://user-images.githubusercontent.com/26379533/151317369-7099f66f-ab83-4f43-8830-1bfdb74f409c.PNG" width="500" height="500"/><p align="center">
+**<p align="center">Fig. 5. T60 estimation error for rooms<p align="center">**
 
-  ![boxPlot_7](https://user-images.githubusercontent.com/26379533/151317407-1a04d9b8-e69a-4d02-853e-1eff546b3468.png)
-  **<p align="center">Fig. 6. T60 estimation error for gender<p align="center">**
+<p align="center"><img src="https://user-images.githubusercontent.com/26379533/151317407-1a04d9b8-e69a-4d02-853e-1eff546b3468.png" width="500" height="500"/><p align="center">
+**<p align="center">Fig. 6. T60 estimation error for gender<p align="center">**
  
- ![boxPlot_3](https://user-images.githubusercontent.com/26379533/151317408-c4614760-88b6-4aaf-a113-feebf136bd58.png)
-   **<p align="center">Fig. 7. T60 estimation error for noise types<p align="center">**
+<p align="center"><img src="https://user-images.githubusercontent.com/26379533/151317408-c4614760-88b6-4aaf-a113-feebf136bd58.png" width="500" height="500"/><p align="center">
+**<p align="center">Fig. 7. T60 estimation error for noise types<p align="center">**
  
- ![boxPlot_4](https://user-images.githubusercontent.com/26379533/151317409-026d485b-fc34-4de1-8900-dbd4ce345401.png)
-    **<p align="center">Fig. 8. T60 estimation error for SNR level<p align="center">**
+<p align="center"><img src="https://user-images.githubusercontent.com/26379533/151317409-026d485b-fc34-4de1-8900-dbd4ce345401.png" width="500" height="500"/><p align="center">
+**<p align="center">Fig. 8. T60 estimation error for SNR level<p align="center">**
  
- ![boxPlot_5](https://user-images.githubusercontent.com/26379533/151317411-8c77af69-1f11-408a-9f03-e8e359536388.png)
-     **<p align="center">Fig. 9. T60 estimation error for noise types according to SNR level (Set 1)<p align="center">**
+<p align="center"><img src="https://user-images.githubusercontent.com/26379533/151317411-8c77af69-1f11-408a-9f03-e8e359536388.png" width="500" height="500"/><p align="center">
+**<p align="center">Fig. 9. T60 estimation error for noise types according to SNR level (Set 1)<p align="center">**
  
- ![boxPlot_6](https://user-images.githubusercontent.com/26379533/151317412-14dac43d-98a3-4f61-b700-1012db246158.png)
-      **<p align="center">Fig. 10. T60 estimation error for noise types according to SNR level (Set 2)<p align="center">**
+<p align="center"><img src="https://user-images.githubusercontent.com/26379533/151317412-14dac43d-98a3-4f61-b700-1012db246158.png" width="500" height="500"/><p align="center">
+**<p align="center">Fig. 10. T60 estimation error for noise types according to SNR level (Set 2)<p align="center">**
  
-  
  --------------------------------------------------------------------------------------------------------------------------
 ### Reference
   
