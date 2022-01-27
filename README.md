@@ -52,19 +52,19 @@ The parameters of two sub networks: the weight estimation network and mapping ne
 - The bias, MSE, and ρ were the evaluation criteria used in the ACE Challenge, and they represent the mean of the estimation error, mean squared error, and Pearson correlation coefficient between the estimated T60 and the ground truth T60, respectively. 
 - As can be seen, the performance of our blind T60 estimation method outperforms previously published state-of-the-art methods for all evaluation criteria.
   
-  [1]	J. Eaton, N. D. Gaubitch, A. H. Moore, and P. A. Naylor, “Estimation of room acoustic parameters: The ACE Challenge,” IEEE/ACM Trans. Audio, Speech, Lang. Process., vol. 24, no. 10, pp. 1681–1693, Oct. 2016.
+    [1]	J. Eaton, N. D. Gaubitch, A. H. Moore, and P. A. Naylor, “Estimation of room acoustic parameters: The ACE Challenge,” IEEE/ACM Trans. Audio, Speech, Lang. Process., vol. 24, no. 10, pp. 1681–1693, Oct. 2016.
   
-  [2] T. de M. Prego, A. A. de Lima, R. Zambrano-López, and S. L. Netto, “Blind estimators for reverberation time and direct-to-reverberant energy ratio using subband speech decomposition,” in Proc. IEEE Workshop Appl. Signal Process. Audio Acoust., New Paltz, NY, USA, Oct. 2015, pp. 1–5.
+    [2] T. de M. Prego, A. A. de Lima, R. Zambrano-López, and S. L. Netto, “Blind estimators for reverberation time and direct-to-reverberant energy ratio using subband speech decomposition,” in Proc. IEEE Workshop Appl. Signal Process. Audio Acoust., New Paltz, NY, USA, Oct. 2015, pp. 1–5.
   
-  [3]	J. Eaton, N. D. Gaubitch, and P. A. Naylor, “Noise-robust reverberation time estimation using spectral decay distributions with reduced computational cost,” in Proc. IEEE Intl. Conf. Acoust., Speech, Signal Process., Vancouver, BC, Canada, May 2013, pp. 161–165.
+    [3]	J. Eaton, N. D. Gaubitch, and P. A. Naylor, “Noise-robust reverberation time estimation using spectral decay distributions with reduced computational cost,” in Proc. IEEE Intl. Conf. Acoust., Speech, Signal Process., Vancouver, BC, Canada, May 2013, pp. 161–165.
 
-  [4]	F. Xiong, S. Goetze, and B. T. Meyer, “Joint estimation of reverberation time and direct-to-reverberation ratio from speech using auditory-inspired features,” in Proc. ACE Challenge Workshop, Satell. Event IEEE-WASPAA, New Paltz, NY, USA, Oct. 2015, pp. 1–5.
+    [4]	F. Xiong, S. Goetze, and B. T. Meyer, “Joint estimation of reverberation time and direct-to-reverberation ratio from speech using auditory-inspired features,” in Proc. ACE Challenge Workshop, Satell. Event IEEE-WASPAA, New Paltz, NY, USA, Oct. 2015, pp. 1–5.
   
-  [5]	H. Gamper and I. J. Tashev, “Blind reverberation time estimation using a convolutional neural network,” in Proc. Intl. Workshop Acoust. Signal Enhancement, Tokyo, Japan, Sep. 2018, pp. 136–140.
+    [5]	H. Gamper and I. J. Tashev, “Blind reverberation time estimation using a convolutional neural network,” in Proc. Intl. Workshop Acoust. Signal Enhancement, Tokyo, Japan, Sep. 2018, pp. 136–140.
   
-  [6]	N. J. Bryan, “Impulse response data augmentation and deep neural networks for blind room acoustic parameter estimation,” in Proc. IEEE Intl. Conf. Acoust., Speech Signal Process., Barcelona, Spain, May 2020, pp. 5000–5004.
+    [6]	N. J. Bryan, “Impulse response data augmentation and deep neural networks for blind room acoustic parameter estimation,” in Proc. IEEE Intl. Conf. Acoust., Speech Signal Process., Barcelona, Spain, May 2020, pp. 5000–5004.
   
-  [7]	S. Deng, W. Mack, and E. A. P. Habets, “Online blind reverberation time estimation using CRNNs,” in Proc. Interspeech, Shanghai, China, Oct. 2020, pp. 5061–5065.
+    [7]	S. Deng, W. Mack, and E. A. P. Habets, “Online blind reverberation time estimation using CRNNs,” in Proc. Interspeech, Shanghai, China, Oct. 2020, pp. 5061–5065.
 
   
 ### ACE Corpus and datasets
@@ -146,7 +146,7 @@ where the results of SDDSA method are reported in [17]
   
 
   
-  [17]	J. Eaton, N. D. Gaubitch, A. H. Moore, and P. A. Naylor, “Acoustic characterization of Environments (ACE) challenge results technical report,” Tech. Rep., Imperial College London, 2017. [Online]. Available: https://arxiv.org/abs/1606.03365
+    [17]	J. Eaton, N. D. Gaubitch, A. H. Moore, and P. A. Naylor, “Acoustic characterization of Environments (ACE) challenge results technical report,” Tech. Rep., Imperial College London, 2017. [Online]. Available: https://arxiv.org/abs/1606.03365
   
   
 As shown in Fig. 4. we visualized AWSSDR and FDSDD using t-SNE [29] to observe whether these features are distinguished according to T60.    
