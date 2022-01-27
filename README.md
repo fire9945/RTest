@@ -147,7 +147,7 @@ where the results of SDDSA method are reported in [17]
 **<p align="center">Fig. 5. T60 estimation error for rooms<p align="center">**
 
  
-<p align="center"><img src="https://user-images.githubusercontent.com/26379533/151321073-09ff97a0-fc9a-416f-b059-b2cfb703082f.png" width="600" height="400"/><p align="center">
+<p align="center"><img src="https://user-images.githubusercontent.com/26379533/151321073-09ff97a0-fc9a-416f-b059-b2cfb703082f.png" width="400" height="500"/><p align="center">
  
 **<p align="center">Fig. 6. T60 estimation error for gender<p align="center">**
  
