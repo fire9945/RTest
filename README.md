@@ -130,7 +130,7 @@ where the results of SDDSA method are reported in [17]
  - Among the 538 RIRs, RIRs with T60 values closest to [0.2, 0.4, 0.6, 0.8, 1.1, 1.2, 1.4]s were selected & 10 utterances were randomly selected from 3696 utterances of TIMIT corpus
  - The same noises were used. / Simulated data were generated with the same process that generate training data
  
-<p align="center"><img src="https://user-images.githubusercontent.com/26379533/151288088-672cc1e6-bc1f-4e33-8120-190a2aee608b.PNG" width="500" height="500"/><p align="center">
+![tSNE_feature](https://user-images.githubusercontent.com/26379533/151320863-b092f257-72eb-4d0d-b13f-006fdca5ee58.PNG)
 **<p align="center">Fig. 3. Visualization of AWSSDR and FDSDD by SNR. <p align="center">**
  
 
@@ -147,7 +147,7 @@ where the results of SDDSA method are reported in [17]
 **<p align="center">Fig. 5. T60 estimation error for rooms<p align="center">**
 
  
-<p align="center"><img src="https://user-images.githubusercontent.com/26379533/151317407-1a04d9b8-e69a-4d02-853e-1eff546b3468.png" width="600" height="400"/><p align="center">
+<p align="center"><img src="https://user-images.githubusercontent.com/26379533/151321073-09ff97a0-fc9a-416f-b059-b2cfb703082f.png" width="600" height="400"/><p align="center">
  
 **<p align="center">Fig. 6. T60 estimation error for gender<p align="center">**
  
